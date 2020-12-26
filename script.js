@@ -12,7 +12,8 @@
       event.code == 'KeyY' ||
       event.code == 'KeyH' ||
       event.code == 'KeyU' ||
-      event.code == 'KeyG') {
+      event.code == 'KeyJ'
+      ) {
         let audio = new Audio();
         audio.src = `./keys/${event.code.slice(3)}.mp3`;
         audio.play()
